@@ -9,7 +9,7 @@ const morgan = require('morgan');
 // DB Connection
 dbConnection();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT);
 
 // middlawares
 app.use(cors());
